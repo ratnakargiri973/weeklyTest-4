@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* margin: 0; */
+    font-family: Arial, sans-serif;
+    background-color: #1a1e2a;
+    color: #eceff4;
+    
+    /* border: 2px solid yellow; */
+  }
+
+  .container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 80px;  */
+    /* border: 2px solid red; */
+    min-height: 90vh;
+    /* border: 2px solid blue; */
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    min-height: 5vh;
+    /* border: 1px solid red; */
+
+    background-color: #1a1e2a;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* border: 2px solid green; */
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #eceff4;
+  }
+
+  .signup {
+    background-color: #6d4bd0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+
+  main {
+    padding: 20px;
+    width: 90%;
+
+    /* border: 2px solid white; */
+  }
+
+  h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #eceff4;
+  }
+
+  p {
+    font-size: 18px;
+    color: #aab0c6;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+
+  .buy-now {
+    background-color: #6d4bd0;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .phones {
+    margin-top: 40px;
+  }
+
+  .phones img {
+    width: 150px;
+    margin: 0 10px;
+  }
+
+  input[type="text"] {
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #6d4bd0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+
+  button#search {
+    background-color: #6d4bd0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  #container {
+    margin-top: 20px;
+    width: 100%;
+    /* max-width: 800px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* border: 1px solid red; */
+  }
+  /* #container:last-child{
+    display: block;
+  } */
+  #showAllButton{
+    display: block;
+    /* align-self: flex-end; */
+    background-color: #6d4bd0;
+    color: white;
+    width: 100px;
+    height: 50px;
+  }
+  .card {
+    background-color: #eceff4;
+    color: #1a1e2a;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .card img {
+    width: 100px;
+    height: auto;
+  }
+
+  .card button {
+    background-color: #6d4bd0;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  #modal{
+    position: fixed;
+    top: 9rem;
+    left: 30rem;
+    /* border: 1px solid blue; */
+    background-color: #1a1e2a;
+
+
+  }
+  #modal span{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    /* padding: 1rem; */
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  #modal #modal-body{
+    text-align: center;
+  }
